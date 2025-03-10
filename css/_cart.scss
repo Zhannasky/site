@@ -1,0 +1,215 @@
+.top-cart {
+    height: 400px;
+    background-image: url(../img/topcart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+
+    &__name-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 14px;
+        font-size: 16px;
+    }
+
+    &__item {
+        border-top: 0.5px solid #CACDD8;       
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__info-name {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        margin-top: 10px;       
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        
+    }
+
+    &__info-title {
+        width: 276px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        line-height: 17px;
+        color: #888888;
+    }
+
+    &__info-price {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        color: #050505;
+        display: flex;
+        gap: 32px;
+        padding-bottom: 15px;
+    }
+    
+    &__left {
+        display: flex;
+        text-decoration: column;
+        gap: 32px;
+    }
+
+    &__form {
+        background: #F7F6F6;
+        border-radius: 20px;
+        height: 556px;
+        grid-column: span 4;
+    }
+
+    &__form-title {
+        font-weight: 700;
+        font-size: 24px;
+        padding-top: 42px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+
+    &__form-anketa {
+        height: 143px;
+        width: 288px;
+    }
+
+    &__form-name {
+        display: flex;
+        flex-direction: column;
+        background: #F7F6F6; 
+        border: none; 
+        width: 288px;
+        border-bottom: 1px solid #CACDD8; 
+        margin-bottom: 44px; 
+        padding-left: 27px;
+    }
+
+    &__form-cena {
+        margin-top: 64px;
+        padding-bottom: 18px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__form-sakas {
+        color: #000;
+        padding-top: 10px;
+        padding-bottom: 11px;
+        display: block;
+        padding-left: 76px;
+        font-size: 16px;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        width: 290px;
+        height: 41px;
+        margin-left: 45px;
+        &:hover {
+            cursor: pointer;
+            background-color: #000;
+            color: #FFFFFF;
+        }
+    }
+
+      &__content {
+        grid-column: span 8;
+    }
+
+    &__link-box {
+        display: flex;
+        gap: 30px;
+        color: #000;
+        text-decoration: underline;
+    }
+            
+    &__link-box1 {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    &__vibor {
+        border: none;
+        background-color: #F7F6F6;
+        width: 71px;
+        height: 51px;
+        padding-left: 15px;
+    }
+
+    &__vibor_nomer {
+        width: 47px;
+        height: 27px;
+        font-weight: 600;
+    }
+}
+
+.product-box_cart {
+        // max-width:1200px;
+        box-sizing: border-box;
+        // padding-top: 64px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 31px;
+    }
+
+.product__icons_cart {
+    position: absolute;
+    padding-top: 10px;
+    left: 466px;
+}
+
+
+.button {
+    border: #000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    gap: 7px;
+   
+    &__filter {
+        font-family: "Montserrat", sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 33px;
+        padding-right: 33px;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        width: 200px;
+        height: 37px; 
+        background-color: white;
+        &:hover {
+            cursor: pointer;
+            background-color: #000;
+            color: #FFFFFF;
+        }
+    }    
+     
+    
+    &__cont {
+        font-family: "Montserrat", sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        width: 200px;
+        height: 37px;
+        color: #000;
+        &:hover {
+            cursor: pointer;
+            background-color: #000;
+            color: #FFFFFF;
+        }
+    }
+}   
