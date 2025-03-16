@@ -14,7 +14,7 @@
     <div class="top-cart center">
         <header class="header">
             <a class="logo" href="index.html">
-                <img src="./img/logo.svg" alt="logo">
+                <img class="logo__img" src="./img/logo.svg" alt="logo">
             </a>
             <input placeholder="Поиск" class="header__input" type="text">
             <nav class="menu">
@@ -84,10 +84,8 @@
                     </div>
                 </div>
             </div>
-           <div class="cart__vibor">
-            <input class="cart__vibor cart__vibor_nomer" type="number" value="1">
-           </div>
-        </div>
+            <input class="cart__vibor" type="number" value="1">
+            </div>
         <div class="cart__item">
             <div class="cart__left">
                 <img class="cart__img" src="img/cart2.jpg" alt="диван">
@@ -100,11 +98,9 @@
                         <a class="cart__link-box" href="#">Удалить</a>
                     </div>
                     </div>
+                </div>            
+                <input class="cart__vibor" type="number" value="1">
                 </div>
-                <div class="cart__vibor">
-                <input class="cart__vibor cart__vibor_nomer" type="number" value="1">
-                </div>           
-            </div>
             <div class="button">
             <button class="button__filter">Очистить корзину</button>
             <a class="button__cont" href="catalog.html">Продолжить покупки</a>
@@ -113,13 +109,13 @@
       <div class="cart__form">
         <h3 class="cart__form-title">Оформление заказа</h3>
         <div class="cart__form-anketa">   
-        <input class="cart__form-name" type="text" placeholder="Имя Фамилия"><br>
-        <input class="cart__form-name" type="text" placeholder="+ 7 904 000 80 80"><br>
-        <input class="cart__form-name" type="text" placeholder="Адрес доставки"><br>
+        <input class="cart__form-name" type="text" placeholder="Имя Фамилия">
+        <input class="cart__form-name" type="text" placeholder="+ 7 904 000 80 80">
+        <input class="cart__form-name" type="text" placeholder="Адрес доставки">
      </div>
 <div>
     <div>
-    <p class="cart__form-cena">Итого: 128 000 руб.</p>
+    <p class="cart__form-cena">Итого: <span class="select">128 000 руб.</p></span> 
     </div>
 <div>
     <a class="cart__form-sakas" href="cart.html">Оформить заказ</a>

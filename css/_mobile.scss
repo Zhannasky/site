@@ -6,6 +6,7 @@
 
     .header {
         padding-top: 32px;
+        border-bottom: aliceblue;
 
         &__input {
             display: none;
@@ -39,6 +40,7 @@
         font-size: 48px;
         line-height: 59px;
         text-align: center;
+        margin-bottom: 0;
     }
 
     .subtitle {
@@ -83,6 +85,7 @@
         font-size: 14px;
         line-height: 24px;
         text-align: center;
+        padding-top: 0;
     }
 
     .catalog-nav {
@@ -121,6 +124,10 @@
         }
     }
 
+    .for-box {
+        padding-top: 32px;
+    }
+
     .products__title {
         font-size: 24px;
         line-height: 29px;
@@ -137,26 +144,12 @@
 
         &_cart {
             margin-top: 48px;
-            padding-bottom: 32px;
         }
     }
 
-    // .product__img_blok {
-    //     left: -55px;
-    //     display: flex;
-    //     justify-content: end;
-    // }
-
-    // .product__img_laik {
-    //     left: -20px;
-    //     display: flex;
-    //     justify-content: end;
-    // }
-
     .cart {
         column-gap: 0;
-        // width: 343px;
-
+       
         &__item {
             width: 343px;
             column-gap: 0;
@@ -212,7 +205,6 @@
         font-size: 12px;
         line-height: 14px;
         width: 166px;
-        // height: 37px;
         padding: 0;
     }
 
@@ -231,6 +223,7 @@
         font-size: 18px;
         line-height: 22px;
         width: 343px;
+        padding-top: 9px;
 
 
         &__name {
@@ -246,7 +239,6 @@
         &__asort {
             display: flex;
             width: 343px;
-            padding-top: 32px;
             align-items: flex-start;
             flex-wrap: wrap;
             gap: 30px;
@@ -260,6 +252,7 @@
     .product__icons_cart {
         left: 289px;
     }
+
     .product-box {
         display: flex;
         padding-top: 32px;
@@ -274,10 +267,10 @@
         }
     }
 
-    .catalog__navigation {
-        margin-top: 37px;
-        margin-bottom: 32px;
+    product-menu {
+        row-gap: 35px;
     }
+
 
     .filtering-box {
         position: absolute;
@@ -307,7 +300,6 @@
     .container-top__right {
         flex-direction: column;
         display: flex;
-        // position: fixed;
     }
 
     .filtering-container__bottom {
@@ -318,8 +310,9 @@
     }
 
     .nav-box {
-        padding-bottom: 32px;
+        padding-top: 0;
         padding-left: 0;
+        padding-bottom: 32px;
     }
 
     .footer {
@@ -336,7 +329,7 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 30px 70px;
-        }        
-        
+        }
+
     }
 }

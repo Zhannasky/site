@@ -13,6 +13,7 @@
     margin-top: 64px;
 
     &__name-box {
+        width: 756px;
         display: flex;
         justify-content: space-between;
         padding-bottom: 14px;
@@ -20,7 +21,7 @@
     }
 
     &__item {
-        border-top: 0.5px solid #CACDD8;       
+        border-top: 0.5px solid #CACDD8;
         padding-top: 25px;
         padding-bottom: 32px;
         display: flex;
@@ -34,11 +35,10 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 29px;
-        margin-top: 10px;       
         display: flex;
         flex-direction: column;
         gap: 14px;
-        
+
     }
 
     &__info-title {
@@ -50,7 +50,7 @@
     }
 
     &__info-price {
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 500;
         line-height: 29px;
         color: #050505;
@@ -58,7 +58,7 @@
         gap: 32px;
         padding-bottom: 15px;
     }
-    
+
     &__left {
         display: flex;
         text-decoration: column;
@@ -88,11 +88,11 @@
     &__form-name {
         display: flex;
         flex-direction: column;
-        background: #F7F6F6; 
-        border: none; 
+        background: #F7F6F6;
+        border: none;
         width: 288px;
-        border-bottom: 1px solid #CACDD8; 
-        margin-bottom: 44px; 
+        border-bottom: 1px solid #CACDD8;
+        margin-bottom: 44px;
         padding-left: 27px;
     }
 
@@ -115,6 +115,7 @@
         width: 290px;
         height: 41px;
         margin-left: 45px;
+
         &:hover {
             cursor: pointer;
             background-color: #000;
@@ -122,7 +123,7 @@
         }
     }
 
-      &__content {
+    &__content {
         grid-column: span 8;
     }
 
@@ -132,7 +133,7 @@
         color: #000;
         text-decoration: underline;
     }
-            
+
     &__link-box1 {
         color: #000;
         text-decoration: underline;
@@ -140,27 +141,25 @@
 
     &__vibor {
         border: none;
+        font-weight: 600;
         background-color: #F7F6F6;
         width: 71px;
         height: 51px;
-        padding-left: 15px;
-    }
-
-    &__vibor_nomer {
-        width: 47px;
-        height: 27px;
-        font-weight: 600;
+        padding-left: 26px;
+        border-radius: 6px;
     }
 }
 
+.select {
+    font-weight: bold;
+}
+
 .product-box_cart {
-        // max-width:1200px;
-        box-sizing: border-box;
-        // padding-top: 64px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 31px;
-    }
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+}
 
 .product__icons_cart {
     position: absolute;
@@ -172,10 +171,10 @@
 .button {
     border: #000;
     font-family: "Montserrat", sans-serif;
-    margin-top: 50px;
+    margin-top: 18px;
     display: flex;
     gap: 7px;
-   
+
     &__filter {
         font-family: "Montserrat", sans-serif;
         padding-top: 10px;
@@ -185,16 +184,17 @@
         border: 1px solid #000000;
         border-radius: 50px;
         width: 200px;
-        height: 37px; 
+        height: 37px;
         background-color: white;
+
         &:hover {
             cursor: pointer;
             background-color: #000;
             color: #FFFFFF;
         }
-    }    
-     
-    
+    }
+
+
     &__cont {
         font-family: "Montserrat", sans-serif;
         padding-top: 10px;
@@ -206,10 +206,11 @@
         width: 200px;
         height: 37px;
         color: #000;
+
         &:hover {
             cursor: pointer;
             background-color: #000;
             color: #FFFFFF;
         }
     }
-}   
+}
