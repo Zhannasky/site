@@ -108,6 +108,10 @@
         margin-top: 0;
     }
 
+    .title-product {
+        font-size: 18px;
+    }
+
     .for {
         grid-template-columns: repeat(4, 1fr);
 
@@ -222,13 +226,14 @@
     .product {
         font-size: 18px;
         line-height: 22px;
-        width: 343px;
-        padding-top: 9px;
+        // width: 343px;
+        // padding-top: 9px;
 
 
         &__name {
             font-size: 14px;
             line-height: 17px;
+            width: 343px;
         }
 
         &__price {
@@ -241,7 +246,7 @@
             width: 343px;
             align-items: flex-start;
             flex-wrap: wrap;
-            gap: 30px;
+            row-gap: 36px;
         }
     }
 

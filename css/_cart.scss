@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .top-cart {
     height: 400px;
     background-image: url(../img/topcart.jpg);
@@ -22,7 +42,7 @@
 
     &__item {
         border-top: 0.5px solid #CACDD8;
-        padding-top: 25px;
+        padding-top: 32px;
         padding-bottom: 32px;
         display: flex;
         justify-content: space-between;
@@ -83,6 +103,7 @@
     &__form-anketa {
         height: 143px;
         width: 288px;
+        margin-left: 27px;
     }
 
     &__form-name {
@@ -93,7 +114,7 @@
         width: 288px;
         border-bottom: 1px solid #CACDD8;
         margin-bottom: 44px;
-        padding-left: 27px;
+        // padding-left: 27px;
     }
 
     &__form-cena {
@@ -151,7 +172,7 @@
 }
 
 .select {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .product-box_cart {
@@ -166,7 +187,6 @@
     padding-top: 10px;
     left: 466px;
 }
-
 
 .button {
     border: #000;

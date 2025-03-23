@@ -29,7 +29,29 @@ a {
     color: #FFFFFF;
 }
 
+.header__select {
+    width: 288px;
+    height: 41px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid $color-text;
+    color: $color-text;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.header__select::placeholder {
+    color: white;
+    opacity: 1;
+}
+
 .inputs__filter {
+    position: relative;
     font-family: "Montserrat", sans-serif;
     padding-top: 0;
     padding-bottom: 0;
@@ -86,7 +108,7 @@ a {
     text-align: left;
     padding-left: 17px;
     background-color: #fff;
-    position: relative;
+    // position: relative;
     border: 1px solid #C4C4C4;
 }
 
@@ -699,7 +721,7 @@ input[type="checkbox"] {
     transition: background-color 0.3s;
 
     &:hover {
-    color: white;
+        color: white;
     }
 
     &__link {
@@ -757,7 +779,7 @@ input[type="checkbox"] {
 .nav-box {
     display: block;
     padding-top: 31px;
-    padding-bottom: 64px;    
+    padding-bottom: 64px;
     font-weight: 400;
     font-size: 16px;
     text-decoration: underline;
