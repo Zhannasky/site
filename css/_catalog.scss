@@ -96,20 +96,12 @@ a {
 }
 
 .inputs__filter {
-    width: 182px;
-    height: 40px;
-    border: 1px solid rgb(196, 196, 196);
-    border-radius: 20px;
     color: rgb(0, 0, 0);
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     text-align: left;
-    padding-left: 17px;
     background-color: #fff;
-    // position: relative;
-    border: 1px solid #C4C4C4;
 }
 
 .inputs__filter:hover {
@@ -666,8 +658,8 @@ input[type="checkbox"] {
 }
 
 .products__title {
-    font-weight: 600;
-    font-size: 48px;
+    // font-weight: 600;
+    // font-size: 48px;
     // margin-top: 64px;
 
 
@@ -776,22 +768,9 @@ input[type="checkbox"] {
     left: 640px;
 }
 
-.nav-box {
-    display: block;
-    padding-top: 31px;
-    padding-bottom: 64px;
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: underline;
-    color: #000000;
-}
 
 .nav-box_navigation {
     color: #000;
-}
-
-.catalog__navigation {
-    font-weight: 400;
-    font-size: 16px;
-    color: #000000;
+    padding-top: 32px;
+    display: block;
 }

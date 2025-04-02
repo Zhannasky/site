@@ -29,7 +29,6 @@ a {
 .cart {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 32px;
     margin-top: 64px;
 
     &__name-box {
@@ -42,12 +41,22 @@ a {
 
     &__item {
         border-top: 0.5px solid #CACDD8;
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__item2 {
+        border-top: 0.5px solid #CACDD8;
         padding-top: 32px;
         padding-bottom: 32px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     }
+    
 
     &__info-name {
         color: rgb(0, 0, 0);
@@ -102,6 +111,7 @@ a {
 
     &__form-anketa {
         height: 143px;
+        font: inherit;
         width: 288px;
         margin-left: 27px;
     }
@@ -114,7 +124,6 @@ a {
         width: 288px;
         border-bottom: 1px solid #CACDD8;
         margin-bottom: 44px;
-        // padding-left: 27px;
     }
 
     &__form-cena {
@@ -175,6 +184,10 @@ a {
     font-weight: 500;
 }
 
+.nav-box {
+    padding-top: 0;
+}
+
 .product-box_cart {
     box-sizing: border-box;
     display: flex;
@@ -186,6 +199,11 @@ a {
     position: absolute;
     padding-top: 10px;
     left: 466px;
+}
+
+
+.products__title_spec {
+    margin-top: 32px;
 }
 
 .button {

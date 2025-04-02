@@ -27,7 +27,6 @@
     }
 
     .product-box_cart {
-        width: 768px;
         gap: 29px;
     }
 
@@ -54,6 +53,11 @@
         justify-content: space-between;
     }
 
+    .catalog__navigation_mobi {
+        padding-top: 0;
+    }
+
+
     .filtering-box {
         right: 24px;
     }
@@ -79,6 +83,7 @@
 
     .button {
         margin-top: 0;
+        padding-bottom: 64px;
     }
 
     .footer__box_mega {
@@ -97,19 +102,17 @@
     }
 
     .product {
-        width: 345px;
+        width: 343px;
     }
 
-    .products__title_cart {
-        width: 777px;
+    .products__title {
+        line-height: 100%;
+        padding-right: 0;
     }
+    
 
     .product-box {
         width: 765px;
-    }
-
-    .product-box_cart {
-        gap: 29px;
     }
 
     .footer__box_mega {

@@ -204,6 +204,9 @@ a {
   margin-top: 64px;
   margin-bottom: 32px;
 }
+.products__title .products__title::before {
+  padding-top: 0;
+}
 
 .products__catalog {
   font-size: 16px;
@@ -396,17 +399,17 @@ a {
   display: block;
   padding-top: 31px;
   padding-bottom: 64px;
-  font-weight: 400;
-  font-size: 16px;
   text-decoration: underline;
   color: #000000;
 }
 
 .catalog__navigation {
+  display: block;
+  padding-top: 32px;
   font-weight: 400;
   font-size: 16px;
-  text-decoration: underline;
-  color: #000000;
+  line-height: 24px;
+  color: #000;
 }
 
 .footer {
@@ -550,7 +553,6 @@ a {
 .cart {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 32px;
   margin-top: 64px;
 }
 .cart__name-box {
@@ -561,6 +563,14 @@ a {
   font-size: 16px;
 }
 .cart__item {
+  border-top: 0.5px solid #CACDD8;
+  padding-top: 25px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cart__item2 {
   border-top: 0.5px solid #CACDD8;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -615,6 +625,7 @@ a {
 }
 .cart__form-anketa {
   height: 143px;
+  font: inherit;
   width: 288px;
   margin-left: 27px;
 }
@@ -678,6 +689,10 @@ a {
   font-weight: 500;
 }
 
+.nav-box {
+  padding-top: 0;
+}
+
 .product-box_cart {
   box-sizing: border-box;
   display: flex;
@@ -689,6 +704,10 @@ a {
   position: absolute;
   padding-top: 10px;
   left: 466px;
+}
+
+.products__title_spec {
+  margin-top: 32px;
 }
 
 .button {
@@ -836,19 +855,12 @@ a {
 }
 
 .inputs__filter {
-  width: 182px;
-  height: 40px;
-  border: 1px solid rgb(196, 196, 196);
-  border-radius: 20px;
   color: rgb(0, 0, 0);
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   text-align: left;
-  padding-left: 17px;
   background-color: #fff;
-  border: 1px solid #C4C4C4;
 }
 
 .inputs__filter:hover {
@@ -1350,10 +1362,6 @@ input[type=checkbox] {
   background-position: 90% 52%;
 }
 
-.products__title {
-  font-weight: 600;
-  font-size: 48px;
-}
 .products__title__catalog {
   font-size: 16px;
 }
@@ -1448,24 +1456,10 @@ input[type=checkbox] {
   left: 640px;
 }
 
-.nav-box {
-  display: block;
-  padding-top: 31px;
-  padding-bottom: 64px;
-  font-weight: 400;
-  font-size: 16px;
-  text-decoration: underline;
-  color: #000000;
-}
-
 .nav-box_navigation {
   color: #000;
-}
-
-.catalog__navigation {
-  font-weight: 400;
-  font-size: 16px;
-  color: #000000;
+  padding-top: 32px;
+  display: block;
 }
 
 @media (max-width: 1024px) {
@@ -1491,7 +1485,6 @@ input[type=checkbox] {
     row-gap: 38px;
   }
   .product-box_cart {
-    width: 768px;
     gap: 29px;
   }
   .product-menu {
@@ -1511,6 +1504,9 @@ input[type=checkbox] {
     display: block;
     display: flex;
     justify-content: space-between;
+  }
+  .catalog__navigation_mobi {
+    padding-top: 0;
   }
   .filtering-box {
     right: 24px;
@@ -1533,6 +1529,7 @@ input[type=checkbox] {
   }
   .button {
     margin-top: 0;
+    padding-bottom: 64px;
   }
   .footer__box_mega {
     gap: 179px;
@@ -1547,16 +1544,14 @@ input[type=checkbox] {
     padding-right: 24px;
   }
   .product {
-    width: 345px;
+    width: 343px;
   }
-  .products__title_cart {
-    width: 777px;
+  .products__title {
+    line-height: 100%;
+    padding-right: 0;
   }
   .product-box {
     width: 765px;
-  }
-  .product-box_cart {
-    gap: 29px;
   }
   .footer__box_mega {
     gap: 145px;
@@ -1711,9 +1706,6 @@ input[type=checkbox] {
   .cart__form-sakas {
     margin-left: 26px;
   }
-  .cart__form-anketa {
-    padding-left: 27px;
-  }
   .cart__form-name {
     padding-left: 0;
   }
@@ -1735,6 +1727,9 @@ input[type=checkbox] {
     text-align: center;
     padding-top: 11px;
     padding-bottom: 11px;
+  }
+  .button__mob {
+    padding-bottom: 48px;
   }
   .product {
     font-size: 18px;
@@ -1813,6 +1808,18 @@ input[type=checkbox] {
     padding-top: 0;
     padding-left: 0;
     padding-bottom: 32px;
+  }
+  .catalog__navigation_mob {
+    display: block;
+    padding-top: 36px;
+  }
+  .nav-box_navigation_mobi {
+    display: block;
+    padding-top: 32px;
+  }
+  .catalog__navigation_mobi {
+    display: block;
+    padding-top: 0;
   }
   .footer__container {
     display: flex;

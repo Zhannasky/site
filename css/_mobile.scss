@@ -153,7 +153,7 @@
 
     .cart {
         column-gap: 0;
-       
+
         &__item {
             width: 343px;
             column-gap: 0;
@@ -190,14 +190,9 @@
             margin-left: 26px;
         }
 
-        &-anketa {
-            padding-left: 27px;
-        }
-
         &-name {
             padding-left: 0;
         }
-
     }
 
     .cart__img {
@@ -223,12 +218,13 @@
         padding-bottom: 11px;
     }
 
+    .button__mob {
+        padding-bottom: 48px;
+    }
+
     .product {
         font-size: 18px;
         line-height: 22px;
-        // width: 343px;
-        // padding-top: 9px;
-
 
         &__name {
             font-size: 14px;
@@ -318,6 +314,22 @@
         padding-top: 0;
         padding-left: 0;
         padding-bottom: 32px;
+        // padding-top: 37px;
+    }
+
+    .catalog__navigation_mob {
+        display: block;
+        padding-top: 36px;
+    }
+
+    .nav-box_navigation_mobi {
+        display: block;
+        padding-top: 32px;
+    }
+
+    .catalog__navigation_mobi {
+        display: block;
+        padding-top: 0;
     }
 
     .footer {
