@@ -132,7 +132,7 @@ a {
 
 .menu__link {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration-line: none;
   line-height: 20px;
   text-align: left;
@@ -336,7 +336,7 @@ a {
   flex-wrap: wrap;
   -moz-column-gap: 31px;
        column-gap: 31px;
-  row-gap: 48px;
+  row-gap: 56px;
 }
 
 .product__img {
@@ -571,6 +571,7 @@ a {
   align-items: flex-start;
 }
 .cart__item2 {
+  width: 768px;
   border-top: 0.5px solid #CACDD8;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -611,6 +612,7 @@ a {
   gap: 32px;
 }
 .cart__form {
+  margin-left: 33px;
   background: #F7F6F6;
   border-radius: 20px;
   height: 556px;
@@ -631,6 +633,9 @@ a {
 }
 .cart__form-name {
   display: flex;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 17px;
   flex-direction: column;
   background: #F7F6F6;
   border: none;
@@ -774,7 +779,6 @@ a {
 
 .catalog {
   padding-top: 16px;
-  height: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1474,7 +1478,6 @@ input[type=checkbox] {
     font-weight: bold;
   }
   .product__asort {
-    width: 745px;
     -moz-column-gap: 29px;
          column-gap: 29px;
     row-gap: 38px;
@@ -1500,7 +1503,7 @@ input[type=checkbox] {
   }
   .catalog-nav {
     padding: 0;
-    width: 733px;
+    width: 708px;
     display: block;
     display: flex;
     justify-content: space-between;
@@ -1509,7 +1512,7 @@ input[type=checkbox] {
     padding-top: 0;
   }
   .filtering-box {
-    right: 24px;
+    right: 36px;
   }
   .cart__item {
     width: 768px;
@@ -1522,6 +1525,7 @@ input[type=checkbox] {
   .cart__form {
     grid-column: span 5;
     width: 376px;
+    margin-left: 0;
   }
   .button__cont {
     background: #000000;

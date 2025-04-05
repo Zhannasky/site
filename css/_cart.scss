@@ -49,6 +49,7 @@ a {
     }
 
     &__item2 {
+        width: 768px;
         border-top: 0.5px solid #CACDD8;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -95,6 +96,7 @@ a {
     }
 
     &__form {
+        margin-left: 33px;
         background: #F7F6F6;
         border-radius: 20px;
         height: 556px;
@@ -118,6 +120,9 @@ a {
 
     &__form-name {
         display: flex;
+        font-family: inherit;
+        font-size: 14px;
+        line-height: 17px;
         flex-direction: column;
         background: #F7F6F6;
         border: none;
