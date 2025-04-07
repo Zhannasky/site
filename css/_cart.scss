@@ -48,16 +48,11 @@ a {
         align-items: flex-start;
     }
 
-    &__item2 {
-        width: 768px;
+    &__item_2 {
         border-top: 0.5px solid #CACDD8;
         padding-top: 32px;
-        padding-bottom: 32px;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
     }
-    
+
 
     &__info-name {
         color: rgb(0, 0, 0);
