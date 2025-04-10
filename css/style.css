@@ -431,13 +431,14 @@ a {
   gap: 129px;
 }
 .footer__menu {
+  font-weight: 500;
   font-size: 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 .footer__menu_vibor {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
   flex-direction: row;
   display: flex;
@@ -445,7 +446,7 @@ a {
   color: #000000;
 }
 .footer__contacts_vibor2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -457,6 +458,7 @@ a {
   gap: 12px;
 }
 .footer__contacts_phon {
+  font-weight: 500;
   text-decoration-line: none;
   color: #888888;
   display: flex;
@@ -1498,7 +1500,7 @@ input[type=checkbox] {
   }
   .catalog-nav {
     padding: 0;
-    width: 720px;
+    width: 745px;
     display: block;
     display: flex;
     justify-content: space-between;
