@@ -1500,7 +1500,7 @@ input[type=checkbox] {
   }
   .catalog-nav {
     padding: 0;
-    width: 745px;
+    width: 834px;
     display: block;
     display: flex;
     justify-content: space-between;
@@ -1509,7 +1509,7 @@ input[type=checkbox] {
     padding-top: 0;
   }
   .filtering-box {
-    right: 4px;
+    left: 309px;
   }
   .cart__item {
     width: 768px;
